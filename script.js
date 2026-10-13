@@ -83,7 +83,7 @@ console.log(Math.max(12, 45, 7));
 console.log(Math.min(12, 45, 7));
 
 // 8. Calculate `5` raised to the power of `2` using `Math.pow()`.
-console.log(Math.pow(5, 3));
+console.log(Math.pow(5, 2));
 
 // 9. Find the square root of `81`.
 console.log(Math.sqrt(81));
@@ -103,6 +103,6 @@ console.log(5 + 2 * 3); //predicted ans = 11
 console.log((5 + 2) * 3); //predicted ans = 21
 
 // Explain why the results are different.
-//the answers are different simply because of the rules of BODMAS
+//the answers are different simply because of the rules of operation precedence
 
 // Reminder: Multiplication, division, and remainder have equal precedence and are evaluated from left to right. Addition and subtraction also have equal precedence and are evaluated from left to right.
